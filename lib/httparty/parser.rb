@@ -42,12 +42,12 @@ module HTTParty
       'application/xml'        => :xml,
       'application/json'       => :json,
       'text/json'              => :json,
-      'application/javascript' => :json,
-      'text/javascript'        => :json,
       'text/html'              => :html,
       'application/x-yaml'     => :yaml,
       'text/yaml'              => :yaml,
-      'text/plain'             => :plain
+      'text/plain'             => :plain,
+      'application/javascript' => :plain,
+      'text/javascript'        => :plain
     }
 
     # The response body of the request
